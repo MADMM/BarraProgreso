@@ -1,4 +1,4 @@
-package Chorrada;
+package Controlador;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -16,7 +16,7 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 
-public class PantallaChorra extends JDialog {
+public class Pantalla extends JDialog {
 
 	private static final long serialVersionUID = 1L;
 	private final JPanel contentPanel = new JPanel();
@@ -25,7 +25,7 @@ public class PantallaChorra extends JDialog {
 	  private JProgressBar barraProgreso;
 
 	
-	public PantallaChorra() {
+	public Pantalla() {
 		 setBounds(100, 100, 637, 566);
 	      JPanel contentPane = new JPanel();
 	      contentPane.setLayout(new BorderLayout());

@@ -1,4 +1,7 @@
-package Chorrada;
+package Controlador;
+
+import Modelo.Modelo;
+import Vista.Vista;
 
 public class Controlador {
 

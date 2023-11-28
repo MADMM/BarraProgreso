@@ -1,4 +1,4 @@
-package Chorrada;
+package Vista;
 
 import java.awt.EventQueue;
 

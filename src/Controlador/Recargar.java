@@ -1,4 +1,7 @@
-package Chorrada;
+package Controlador;
+
+import Modelo.Modelo;
+import Vista.Vista;
 
 public class Recargar {
 
@@ -10,7 +13,7 @@ public class Recargar {
 
 		   Controlador controlador = new Controlador(vista,modelo);
 		 
-		   PantallaChorra splash = new PantallaChorra();
+		   Pantalla splash = new Pantalla();
 		 
 		  
 		   vista.setVisible(true);
